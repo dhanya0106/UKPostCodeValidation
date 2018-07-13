@@ -1,4 +1,3 @@
-import sys
 import unittest
 from UKPostCode.UKPostCode import UKPostCode
 

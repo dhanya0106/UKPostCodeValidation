@@ -21,8 +21,5 @@ setup(name='UKPostCode',
       author_email='dhanyasj01@gmail.com',
       license='MIT',
       packages=['UKPostCode'],
-      install_requires=[
-          'json',
-      ],
       include_package_data=True,
       zip_safe=False)

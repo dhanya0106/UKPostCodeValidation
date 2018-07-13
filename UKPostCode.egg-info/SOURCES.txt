@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+UKPostCode/UKPostCode.py
+UKPostCode/__init__.py
+UKPostCode.egg-info/PKG-INFO
+UKPostCode.egg-info/SOURCES.txt
+UKPostCode.egg-info/dependency_links.txt
+UKPostCode.egg-info/not-zip-safe
+UKPostCode.egg-info/top_level.txt

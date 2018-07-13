@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: UKPostCode
+Version: 0.1
+Summary: Validate UK post code and format it
+Home-page: http://github.com/dhanya1/UKPostCodeValidationa
+Author: Dhanya Jaychandra
+Author-email: dhanyasj01@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: post postcode ukpostcode uk
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3,6.3
+Classifier: Topic :: Text Processing :: Linguistic

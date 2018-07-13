@@ -1,11 +1,16 @@
 A program to validate format UK Post Code:
 
+Installation instructions:
+===========================
+git clone https://github.com/dhanya1/UKPostCodeValidation.git
+pip install UKPostCode
+
 Usage:
 
 Validation:
 -----------
 
->>> from UKPostCode import UKPostCode
+>>> from UKPostCode.UKPostCode import UKPostCode
 >>> obj = UKPostCode()
 >>> obj.validate_postcode('EC1M3AF')
 True
@@ -16,7 +21,7 @@ Returns True or False boolean values.
 
 Formatting:
 -----------
->>> from UKPostCode import UKPostCode
+>>> from UKPostCode.UKPostCode import UKPostCode
 >>> obj = UKPostCode()
 >>> obj.format_postcode('EC1m3a  f')
 'EC1M 3AF'

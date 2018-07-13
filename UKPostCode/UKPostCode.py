@@ -1,7 +1,5 @@
 import re
-import sys, os
 
-sys.path.append(os.getcwd())
 
 class UKPostCode(object):
     def __init__(self):
