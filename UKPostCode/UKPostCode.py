@@ -6,7 +6,6 @@ class UKPostCode(object):
         self.post_code = {}
 
     def __extract_validate(self, s):
-
         s = s.strip()
         # Capture Area code, District code and Inward code respectively
         PATTERN = '^([A-PR-UWYZ][A-HK-Y]?)' \
