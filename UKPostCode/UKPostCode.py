@@ -12,16 +12,17 @@ class UKPostCode(object):
                   '([\d]{1})' \
                   '([\dA-Z]?)' \
                   '([\d]{1}[ABD-HJLNPQ-Z]{2})$'
-
         codes = re.match(PATTERN, s)
         if codes is None:
             return False
-
+        # Extract
         parts = list(codes.groups())
         optional_char = parts.pop(2)
         self.post_code['area_code'] = parts[0]
         self.post_code['district_code'] = parts[1]
         self.post_code['inward_code'] = parts[2]
+        
+        # Validation
         if None in parts:
             return False
         else:
@@ -62,10 +63,8 @@ class UKPostCode(object):
         s = s.strip().upper()
         s = re.sub('\s','',s)
         is_special_case = self.__validate_special_case(s)
-
         if is_special_case:
             return True
-
         is_valid_case = self.__extract_validate(s)
         if is_valid_case:
             return True
