@@ -2,6 +2,9 @@ A program to validate format UK Post Code:
 
 Installation instructions:
 ===========================
+
+Supported on Python3 only:
+
 >>> git clone https://github.com/dhanya1/UKPostCodeValidation.git
 >>> cd UKPostCodeValidation
 >>> pip install .
